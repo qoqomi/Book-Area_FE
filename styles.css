@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    border:none;
+}
+input:focus{
+    outline:none;
+}
+body{
+    max-width: 360px;
+    margin:0 auto;
+    padding-bottom: 20px;
+
+
+}
+.top-class{
+    display: flex;
+    justify-content: center;
+    padding-top:40px;
+    padding-bottom: 50px;
+    background-color: #FFCE32;
+}
+.top-class__column{
+    width: 33%;
+    
+}
+.top-class__column:first-child{
+    margin-left:15px;
+}
+.top-class__column:nth-child(2) span {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+.top-class__column:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18px;
+}
+
+.search{
+    margin: 0 auto;
+    border: none;
+    width: 95%;
+    margin-top: -8%;
+    position: relative;    
+}
+
+input{
+    width: 100%;
+    padding:15px 25px;
+    border-radius: 50px;
+    
+}
+input::placeholder{
+    font-size:15px;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+.search i{
+     position:absolute;
+     top:25px;
+     right:20px;
+     color: rgba(0, 0, 0, 0.4);
+}
+
+main{
+    padding:0px 15px;
+    background-color: whitesmoke;
+    overflow:hidden;
+    margin-top:-15px;
+    
+}
+main h2{
+    margin-top:30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.featured-book{
+    display: flex;
+}
+.featured-book__cover{
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.featured-data{
+    width:100%;
+}
+.featured-data h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.featured-data h5{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.featured-data__star{
+    font-size:12px;
+    margin-bottom: 12px;
+    color:#FDCC32;
+}
+.featured-data__blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-data__block{
+    padding:5px 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom:25px;
+    border-radius: 5px;   
+    font-size:15px;
+    font-weight: 600;
+}
+.featured-data__tags{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.featured-data__tags span{
+    padding:15px 15px;
+    margin-bottom:10px;
+       
+}
+.featured-data__tags span:first-child{
+    background-color:#FDCC32;
+    border-radius: 50%;
+}
+.featured-data__tags span:last-child{
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+}
+.various-books{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.various-book__picture{
+    width: 80px;
+    border-radius: 5px;
+    margin-right: 20px;
+    
+}
+.various-book__star{
+    font-size:10px;
+    color:#FDCC32;
+}
+.featured-authors{
+    width: 95%;
+    display: flex;
+}
+.featured-authors__cover{
+    width: 110px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
